@@ -1,0 +1,28 @@
+// Archivo manifiesto 
+//abstracts
+@import 
+'abstracts/functions',
+'abstracts/variables',
+'abstracts/mixins';
+//vendors
+@import
+'vendors/bootstrap';
+//base
+@import 'base/reset',
+'base/utilities',
+'base/typography';
+//layouts
+@import 'layout/header',
+'layout/grid',
+'layout/main-section',
+'layout/sidebar',
+'layout/footer';
+//components
+@import 
+ 'components/navbar',
+ 'components/buttons',
+ 'components/carousel';
+    
+//pages
+//themes,
+//utilities

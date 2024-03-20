@@ -1,0 +1,29 @@
+// Archivo de botones 
+.btn {
+    padding: $sp2 15px;
+    font-size: $fsmedium;
+    font-family: $mono-font;
+    
+        &--primary {
+            background-color: $white;
+            border: 1px solid $black;
+            color: $black;
+            
+            &:hover {
+                background-color: $white;
+                border: 1px solid $quick_silver;
+                color: $quick_silver;
+            }
+    }
+    &--secondary {
+        background-color: $shiny_shamrock;
+        border: 1px solid $shiny_shamrock;
+        color: $white;
+
+        &:hover {
+            background-color: $turquoise_green;
+            border: 1px solid $turquoise_green;
+            color: $outer_space;
+    }
+}
+}

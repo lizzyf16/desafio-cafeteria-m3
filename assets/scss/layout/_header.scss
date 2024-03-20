@@ -1,0 +1,147 @@
+// Archivo de header 
+.navbar{
+    height: 100px;
+    padding: $sp5;
+    display:flex;
+    justify-content: space-between;
+    font-family: $mono-font;
+    align-items:center;
+    color: $spanish_gray;
+
+    &__brand{
+        width: 30px;
+    }
+    &__menu{
+        display: flex;
+        gap: $sp4;
+        align-items:center;
+        text-decoration: none;
+        color: $spanish_gray;   
+    }
+
+    &__menu a{
+        text-decoration: none;
+        color: $spanish_gray; 
+        & :hover{
+            color: $black;
+        }
+    }
+}
+.header{
+    &__container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    &--img{
+        width: 65%;
+        display: flex;
+        flex-direction:column-reverse;
+        flex-wrap: wrap-reverse;
+
+
+    }
+    &--img img{
+        width: 100%;
+        z-index: 1;
+    }
+    &--valores{
+        z-index: 2;
+        display:flex;
+        justify-content:space-around;
+        position: absolute;
+        gap: $sp3;
+        padding: $sp5 $sp4;
+        background-color: $white;
+    }
+    &--card1{
+        width: 40%;
+    }
+    &--card2{
+        width: 30%;
+    }
+    &--card3{
+        width: 40%;
+    }
+
+    &--block{
+        width: 35%;
+        position: relative;
+        display: block;
+        padding: $sp6;
+
+    }
+        
+    // &-text{
+    //     padding-left: $sp6;
+    //     padding-top: $sp5;
+    // }
+    &--yellow{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        background-color: $coral;
+        display: block;
+        bottom: 0;
+        left: 0;
+        padding: 25px;
+
+        // z-index: 1;
+        // width: 140px;
+        // height: 140px;
+        // background-color: $coral;
+        // display: flex;
+        // align-self:flex-end;
+    }
+    &--orange{
+        z-index: 2;
+        margin-left:-70px;
+        width: 140px;
+        height: 140px;
+        display: block;
+        bottom: 20px;
+        padding: 40px;
+        background-color: $flame;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: $fsxxxlarge;
+        position: absolute;
+        color: $white;
+        font-weight: $font-bold;
+
+    }
+    // &-arrow{
+    //     width: 100%;
+    //     display: flex;
+    //     align-items: center;
+    //     text-align: center;
+    //     color: $white;
+        
+    // }
+
+    
+    
+
+}
+}
+
+
+// .header {
+//     padding: 15px 30px;
+//     position:fixed;
+//     top:0;
+//     width: 100%;
+//     border-bottom: 1px solid $secondary;
+//     display:flex;
+//     justify-content: space-between;
+//     align-items: center;
+
+//     &__container-list {
+//         display: flex;
+//         align-items: center;
+//     }
+// }
+

@@ -1,0 +1,37 @@
+.section__container{
+    display: flex;
+    width: 100%;
+    &--texto{
+        padding: 50px;
+        width: 30%;
+    }
+    &--blue{
+        z-index: 1;
+        background-color: $blue_defrance;
+        width: 30%;
+        height: 300px;
+    }
+    &--map{
+        z-index: 2;
+        left: 540px;
+        bottom: -115px;
+        width: 300px;
+        height: 230px;
+        display: flex;
+        position: absolute;
+    }
+    &__coffemachine{
+        width: 40%;
+
+        &--img{
+            width: 100%;
+        }
+    }
+    &__coffebeans{
+        z-index: 3;
+        left: 1080px;
+        position: absolute;
+        width: 100px;
+        height: 150px;
+    }
+}
